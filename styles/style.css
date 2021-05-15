@@ -1,0 +1,139 @@
+body {
+    height: 98vh;
+    /* background-image: url('../images/19333449.jpg');
+    background-size: cover; */
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    font-family: Bebas Neue, cursive;
+    padding: 40px;
+    background-image: url('../images/875e2efbb296ad0ba69d822d142529bb.jpg');
+    background-size: cover;
+    border: 20px solid;
+    border-color: darkmagenta;
+    border-radius: 30px;
+    height: 600px;
+    width: 1200px;
+}
+
+.form {
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(196, 53, 196);
+}
+
+.image-section {
+    margin-left: 450px;
+    color: rgb(250, 223, 135);
+}
+
+.image-section h1 {
+    font-size: 60px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.row-title {
+    margin: 7px 12px;
+}
+
+.row-input {
+    margin: 7px;
+}
+
+.row-input input {
+    border-width: 0px;
+    outline-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.row-extra {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.check-box {
+    display: flex;
+}
+
+button {
+    border-width: 0px;
+    background-color: white;
+    font: 400 22px Bebas Neue;
+    color: rgb(196, 53, 196);
+}
+
+.button {
+    border-width: 0px;
+    background-color: white;
+    font: 400 30px Bebas Neue;
+    color: rgb(196, 53, 196);
+}
+
+button:hover, .button:hover{
+    cursor: pointer;
+    color: rgb(135, 250, 168);
+}
+
+.index-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info {
+    align-items: center;
+    justify-content: center;
+}
+
+.info h1, .info h2 {
+    font-family: Bebas Neue;
+    color: rgb(196, 53, 196);
+}
+
+.info h1 {
+    text-align: center;
+    font-size: 120px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.logout {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.index-body {
+    background-image: url(../images/214962.jpg);
+    background-size: cover;
+}
